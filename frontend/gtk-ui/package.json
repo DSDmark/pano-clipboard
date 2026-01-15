@@ -1,0 +1,26 @@
+{
+  "name": "gtk-ui",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "gjs -m dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@girs/adw-1": "^1.9.0-4.0.0-beta.38",
+    "@girs/gnome-shell": "^49.1.0",
+    "@girs/gtk-4.0": "^4.20.1-4.0.0-beta.38",
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "rollup": "^4.55.1",
+    "ts-for-gir": "^1.0.1",
+    "typescript": "^5.9.3"
+  }
+}
